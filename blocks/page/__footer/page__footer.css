@@ -1,0 +1,15 @@
+.page__footer {
+  margin-top: 68px;
+}
+
+@media screen and (max-width: 896px) {
+  .page__footer {
+    margin-top: 64px;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .page__footer {
+    padding-bottom: 24px;
+  }
+}

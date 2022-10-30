@@ -1,0 +1,19 @@
+.places__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-gap: 80px;
+}
+
+@media screen and (max-width: 896px) {
+  .places__list {
+    grid-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .places__list {
+    grid-gap: 50px;
+  }
+}

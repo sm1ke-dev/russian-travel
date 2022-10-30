@@ -1,0 +1,12 @@
+.places__links {
+  padding: 0;
+  list-style: none;
+  align-self: end;
+}
+
+@media screen and (max-width: 544px) {
+  .places__links {
+    margin: 0 16px;
+  }
+}
+

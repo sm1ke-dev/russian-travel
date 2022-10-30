@@ -1,0 +1,22 @@
+.page__intro {
+  margin-top: 92px;
+  padding-left: 100px;
+}
+
+@media screen and (max-width: 1152px) {
+  .page__intro {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .page__intro {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .page__intro {
+    margin-top: 64px;
+  }
+}
